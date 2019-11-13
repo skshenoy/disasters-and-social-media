@@ -1,0 +1,16 @@
+Problem 1: Leveraging Social Media to Map Disasters
+Problem Statement:
+When responding to disasters (e.g. damage and casualties caused by hurricanes, tornadoes, floods, fires etc.), it is critical to map and identify locations of survivors needing assistance.
+Currently, satellite and aerial imagery, ground surveys and modeled hazard data are the primary tools used to assess damage and to identify areas where survivors may need assistance.
+Often, survivors will resort to using social media to call for help or share information about their location and the current situation. In many cases they will also include useful images showing water levels, amount of damage etc. which could indicate on the intensity of the disaster.
+This information is leveraged to track the event in real-timeto identify isolated communities at risk, locations of survivors and areas where assistance teams should be sent. 
+This project will discover new ways to leverage social media (including from Twitter, Facebook, Instagram, Snapchat, or others) to supplement current tools and methodologies used when responding to disasters.
+The tools developed in this project will also help leverage social media to locate hot spots of where people are needing assistance, using, for example, geolocated posts/tweets containing keywords such as “flood”, “fire”, “damage”, “destroyed” or anything else that could be related to the specific disaster event, including searching for images tagged with relevant keywords. A main challenge will be, of course, removing irrelevant information that may happen to contain similar keywords.
+Desired Deliverables:
+A short write-up describing the project.
+Open source code to allow for implementation of this big data search process during a disaster.
+The code should be flexible enough and allow the end user to change certain keywords which would correspond to different disaster types, e.g.: “flood”, “water”, “depth”, for a flood event and “burn”, “fire”, “smoke” for a wildfire event. Possible disaster events include floods, fires, hurricanes, earthquakes, tornadoes, tsunamis and volcanoes.
+Output of this code should be a geolocated dataset (a GIS shapefile or json with lat/long reference, or a KML file) with relevant information acquired from the tweet as attribution
+A preliminary proof of concept using a real-world example.
+Descriptions of data used as input:
+Geo-referenced disaster-specific social media posts (with or without images).
